@@ -1,0 +1,11 @@
+from tkinter import *
+root = tkinter.Tk()
+root.minsize(300,400)
+root.title("*Kittu & Anukool*")
+frame = Frame(root)
+frame.pack()
+button=Button(frame,text="ULLU",fg="green")
+button.pack(side=LEFT)
+e=Entry(root, bd=5)
+e.pack()
+root.mainloop()
